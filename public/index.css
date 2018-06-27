@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  min-height: 100%;
+  flex-flow: column;
+  justify-content: space-between;
+  font-family: sans-serif;
+  text-align: center;
+  background: brown;
+}
+
+.header {
+  order: 1;
+  flex: 0 1 auto;
+  font-family: Wellfleet;
+  font-weight: bold;
+  background: orange;
+  padding: 5px 30px;
+  text-align: left;
+  color: white;
+}
+
+.image {
+  order: 2;
+  flex: 0 1 auto;
+}
+
+.image img {
+  height: 500px;
+  width: auto;
+}
+
+.button {
+  order: 3;
+  flex: 0 1 auto;
+  padding: 16px;
+}
+
+.button__corgi {
+  color: orange;
+  background: transparent;
+  border: 2px solid orange;
+  border-radius: 6px;
+  padding: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button__corgi:hover {
+  background-color: orange;
+  color: white;
+}
+
+.footer {
+  order: 4;
+  flex: 0 1 auto;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
